@@ -5,10 +5,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .footer-container h1{
     color: white;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
 }
 
 .footer-contact{
@@ -17,8 +24,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 24px;
-    padding: 24px;
+    padding: 18px;
     color: white;
 }
 
@@ -32,12 +38,12 @@
 }
 
 .footer-input{
-    padding: 8px 20px;
+    padding: 4px 10px;
     border-radius: 2px;
     margin-right: 10px;
     outline: none;
     border: none;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 16px;
     border: 1px solid white;
 }
@@ -83,7 +89,7 @@
 }
 
 .footer-input::placeholder{
-    color: lightgray;
+    color: grey;
 }
 
 .social-icon-link{
@@ -102,7 +108,7 @@
     align-items: center;
     width: 90%;
     max-width: 1000px;
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 .social-icons{

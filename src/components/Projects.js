@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 import './ProjectCard.css';
 function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id="Projects">
             <h1>My Projects</h1>
             <div className="projects--container">
                 <div className="projects--wrapper">

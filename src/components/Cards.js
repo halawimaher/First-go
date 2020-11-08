@@ -3,7 +3,7 @@ import CardItem from './CardItem'
 import './Cards.css';
 function Cards() {
     return (
-        <div className="cards">
+        <div className="cards" id="Skills">
             <h1>My Skill Set</h1>
             <div className="cards--container">
                 <div className="cards--wrapper">
