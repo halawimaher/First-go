@@ -6,10 +6,10 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className="hero-container">
-            <h1>Hi, My name is Souad ALi</h1>
-            <p>Let's Work Together</p>
-            <div className="hero-btns">
-                <Button className="btns" buttonStyle='btn--outline' buttonSize='btn--large'>Talk to Me</Button>
+            <h1>Hi, I am Souad ALi</h1>
+            <p>Designer, Creator, Mentor</p>
+            <div className="hero-btn">
+                <Button className="btn" buttonStyle='btn--outline' buttonSize='btn--large'>Let's Talk</Button>
             </div>
         </div>
     )

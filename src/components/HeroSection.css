@@ -13,6 +13,7 @@
 .hero-container > h1{
     color: white;
     font-size: 100px;
+    border: none;
 }
 
 .hero-container > p{
@@ -22,11 +23,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.hero-btns{
+.hero-btn{
     margin-top: 32px;
 }
 
-.hero-btns .btn{
+.hero-btn .btn{
     margin: 60px;
 }
 

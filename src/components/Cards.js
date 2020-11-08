@@ -35,7 +35,7 @@ function Cards() {
                         path="/"
                         />
                         <CardItem 
-                        src="images/img-3.jpg"
+                        src="images/img-5.webp"
                         text="UI/UX"
                         label="Design"
                         path="/design"
