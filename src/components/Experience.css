@@ -1,0 +1,229 @@
+/* .main-wrapper{
+    height: 100vh;  
+    background: url('../images/exp.webp') center center/cover no-repeat;
+}
+
+.main-wrapper h1{
+    border: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.Exp-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 70%;
+    width: 50%;
+    background: white;
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 5px 10px rgba(8, 112, 184, 0.7);
+}
+
+.Exp-Card:hover{
+    opacity: 1;
+    transform: scale(1.01);
+    box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+}
+
+.exp-items{
+    padding: 2px;
+    width: 80vw;
+}
+
+.exp-role{
+    color: red;
+    font-size: 34px;
+}
+
+.exp-company{
+    color: blue;
+    font-size: 24px;
+}
+
+.exp-duration{
+    color: white;
+    font-size: 18px;
+}
+
+.exp-tasks{
+    color: pink;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 760px){
+    .exp-tasks{
+        display: none;
+    }
+} */
+
+.main-wrapper {
+   box-sizing: border-box;
+   height: 100vh;
+   padding: 4rem;
+   /* background: url('../images/experience.jpeg') center center/cover no-repeat; */
+   background: var(--primary);
+}
+
+h1 {
+   color: #242424;
+}
+
+:root {
+   --background: white;
+
+   --primary: #fbaf08;
+   --secondary: #1effc3;
+
+   --card-size: 300px;
+}
+
+.exp-slider {
+
+
+   margin: 0;
+   margin-top: 70px;
+   display: grid;
+   place-items: center;
+   padding: 1rem;
+   font-family: 'Source Code Pro', monospace;
+
+   text-rendering: optimizelegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+   width: calc(var(--card-size) * 2);
+   height: 60vh;
+
+
+   border-radius: 0.75rem;
+   box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
+
+   background: #242424;
+
+   display: grid;
+   grid-template-columns: 40% auto;
+   color: white;
+
+   align-items: center;
+
+   will-change: transform;
+   transition: transform 0.25s cubic-bezier(0.4, 0.0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0.0, 0.2, 1);
+
+
+}
+
+.card:hover {
+   box-shadow: 0 32px 30px 14px #242424, 0 0 0 0 #242424;
+   transform: scale(1.03);
+   transition: all 0.3s ease-out;
+}
+
+.card-details {
+   padding: 1rem;
+}
+
+.name {
+   color: var(--secondary);
+   font-size: 1.25rem;
+}
+
+.occupation {
+   font-weight: 600;
+   color: var(--primary);
+}
+
+.occupation::before {
+   content: "@";
+   color: var(--primary);
+}
+
+.card-avatar {
+   display: grid;
+   place-items: center;
+   width: 175px;
+   height: 175px;
+}
+
+img {
+   max-width: 80%;
+}
+
+.card-about {
+   margin-top: 0.1rem;
+   display: flex;
+}
+
+.item {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 0.5rem;
+   margin-right: 1rem;
+   width: 6vw;
+}
+
+.value {
+   color: var(--primary);
+   font-size: 13px;
+}
+
+.item.value {
+   font-size: 1rem;
+}
+
+.item .value {
+   color: var(--secondary);
+}
+
+.item .label {
+   color: var(--secondary);
+}
+
+.item.label {
+   margin-top: 0.15rem;
+   font-size: 0.75rem;
+   font-weight: 600;
+   color: var(--primary);
+}
+
+.skills {
+   display: flex;
+   flex-direction: column;
+   margin-top: 0.75rem;
+}
+
+.skills.value {
+   margin-top: 0.15rem;
+   font-size: 0.75rem;
+   line-height: 1.25rem;
+}
+
+.skills.label {
+   font-size: 1rem;
+   font-weight: 600;
+   color: var(--primary);
+}
+
+@media screen and (max-width: 760px) {
+   .card-avatar {
+      display: none;
+   }
+
+   .card-details {
+      width: 280%;
+   }
+
+   .card {
+      width: 400px;
+      margin: 0;
+   }
+}

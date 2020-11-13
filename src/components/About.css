@@ -1,0 +1,70 @@
+.About-Section {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: right;
+    /* background: url('../images/hero.jpeg') center center/cover no-repeat; */
+    background: #fbaf08;
+}
+
+.announcement {
+    width: 100%;
+    padding: 50px 50px 20px 20px;
+    font-size: 40px;
+    color: #242424;
+}
+
+.About-Section p {
+    width: 50vw;
+    height: 100vh;
+    color: #242424;
+    padding: 150px 50px 0 0;
+}
+
+.About-Text {
+    display: flex;
+    justify-content: flex-end;
+    width: 50vw;
+}
+
+.About-Text p {
+    width: 40vw;
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .About-Section p {
+        padding: 0;
+        width: 80vw;
+    }
+
+    .About-Text p {
+        overflow-y: auto;
+        text-align: center;
+    }
+
+    .About-Text {
+        /* text-align: center; */
+        width: 90%;
+    }
+
+    .About-Section {
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .About-Section p {
+        padding: 10%;
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .About-Section p {
+        /* padding: 0; */
+        width: 80vw;
+    }
+}
